@@ -1,0 +1,22 @@
+{
+  "name": "portfoio-website",
+  "version": "1.0.0",
+  "description": "Portfolio Website for Professionals.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lian Sang",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.5.3",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6",
+    "path": "^0.12.7"
+  }
+}
