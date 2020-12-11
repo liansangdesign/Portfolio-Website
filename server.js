@@ -18,10 +18,6 @@ app.use('/js', express.static(path.join(__dirname, 'node_modules/jquery/dist')))
 app.use('/dist', express.static(path.join(__dirname, 'public/dist')));
 app.use('/', index);
 
-app.route('/signup').get(function(req, res) {
-    res.send('Signup');
-});
-
 app.listen(PORT, function(err) {
     app.use(morgan('dev'));
     if (err) {
